@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body{
+    padding: 0;
+    margin: 0;
+     background: linear-gradient(#303030,#ffae42); /* Standard syntax */
+    background-repeat: no-repeat;
+    height: 1000px;
+    overflow: hidden;
+   
+}
+#form{
+    height: 450px;
+    width: 420px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+   
+}
+#container{
+    margin: auto;
+    width: 400px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    height: 470px;
+    
+}
+
+#form input[type=password],[type=text]{
+    padding: 4px;
+    border-radius: 10px; 
+    width: 230px;
+    height: 30px;
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-style:hidden;
+    position: relative;
+    left: 80px;
+    top: 150px;
+    text-align: center;
+}
+
+#form button[type=submit]{
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    position: relative;
+    left: 150px;
+    top:150px;
+    
+}
+img{
+
+   height: 130px;
+   position: absolute;
+    transform: rotate(-11deg);
+    width: 380px;
+    top: -60px;
+    left: -50px;
+    
+}
+
+#footer{
+    position: relative;
+    top: 400px;
+    left:10px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+
+    
+}
+
+#register
+{
+top:150px;
+left:40px;
+position:relative;
+
+
+}
+
+

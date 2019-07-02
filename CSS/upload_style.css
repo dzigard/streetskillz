@@ -1,0 +1,176 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body{
+    background-color: gray;
+    font-family: roboto,sans-serif;
+}
+
+
+#upload_title{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    
+}
+#form_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 43px;
+    background-color: white;
+    height: 1200px;
+    top: -00px;
+    
+
+}
+#form_wrap form{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background: #5823f9;
+    width: 70%;
+    height: 60%;
+    position: relative;
+    left:200px;
+    border-radius: 10px;
+}
+
+#upload_submit {
+	border: none;
+	background: gold;
+	border-radius: 5px;
+	color: #ffffff;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-left:200px;
+    font-size: 18px;
+    
+	
+	
+	
+}
+button#pic_change{
+    
+}
+
+
+#form_wrap input[type=file],
+#form_wrap input[type=text],
+#form_wrap textarea
+{
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+	max-width: 300px;
+	left: 0px;
+	width: 100%;
+	max-width: 400px;
+	position: relative;
+	margin: 0 auto;
+    
+    
+	
+	
+}
+
+#form_wrap textarea
+{
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+	left: 0px;
+	width: 100%;
+	max-width: 350px;
+	position: relative;
+    font-size:16px;
+    margin: 0 0 10px;
+    resize: none;
+    
+	
+	
+}
+
+
+#sett_nav{
+    height: 300px;
+    position: fixed;
+    width: 250px;
+    background-color: gold;
+    top:75px;
+    left:200px;
+}
+
+#sett_nav li{
+list-style: none;
+text-align: center;
+    margin-right: 50px;
+    width: 110px;
+   padding: 30px;
+    background-color: white;
+     border-bottom: 1px solid;
+    
+}
+
+
+#sett_nav li{
+list-style: none;
+text-align: center;
+    margin-right: 50px;
+    width: 110px;
+   padding: 30px;
+    background-color: white;
+     border-bottom: 1px solid;
+}
+
+
+#sett_nav li:hover{
+background-color: darkorange;
+    font-size: 20px;
+    transition: linear 0.2s;
+}
+
+#sett_nav a{
+    color: black;
+    text-decoration: none;
+   
+}
+
+#sett_nav a:hover{
+   
+    text-decoration: none;
+   
+}:
+
+
+
+/* prograss bar */
+
+
+
+
+#footer_container:before{
+    content: " ";
+    display: block;
+    border-top: 1px solid darkgray;
+}
+
+#footer_container{
+    
+    background-color: white;
+    height: 10px;
+    margin-top: 13px
+}
+
+#footer_1 li{
+    display: inline-block;
+   
+}
+#footer_1 a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#footer_1 #copyright{
+    font-size: 14px;
+    color: gray;
+}
